@@ -342,6 +342,7 @@ fig_mapa_nexvolt.update_layout(
 )
 
 app = Dash(__name__, suppress_callback_exceptions=True)
+server = app.server
 
 # Menú lateral NEXVOLT
 
